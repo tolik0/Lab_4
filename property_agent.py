@@ -94,7 +94,7 @@ class House(Property):
     """
     Class which represent houses
     """
-    #correct values to check
+    # correct values to check
     valid_garage = ("attached", "detached", "none")
     valid_fenced = ("yes", "no")
 
@@ -163,6 +163,7 @@ class Rental:
     """
     Class which represent type of payment - rent
     """
+
     def __init__(self, furnished='', utilities='', rent='', **kwargs):
         super().__init__(**kwargs)
         self.furnished = furnished
@@ -196,6 +197,7 @@ class HouseRental(Rental, House):
     """
     Class for renting house
     """
+
     def prompt_init():
         init = House.prompt_init()
         init.update(Rental.prompt_init())
@@ -208,6 +210,7 @@ class ApartmentRental(Rental, Apartment):
     """
     Class for renting apartments
     """
+
     def prompt_init():
         init = Apartment.prompt_init()
         init.update(Rental.prompt_init())
@@ -220,6 +223,7 @@ class ApartmentPurchase(Purchase, Apartment):
     """
     Class for buying apartments
     """
+
     def prompt_init():
         init = Apartment.prompt_init()
         init.update(Purchase.prompt_init())
@@ -232,6 +236,7 @@ class HousePurchase(Purchase, House):
     """
     Class for buying house
     """
+
     def prompt_init():
         init = House.prompt_init()
         init.update(Purchase.prompt_init())
@@ -244,6 +249,7 @@ class Agent:
     """
     Class which represent agent, to manage information
     """
+
     def __init__(self):
         self.property_list = []
 
@@ -253,6 +259,7 @@ class Agent:
         """
         for property in self.property_list:
             property.display()
+
     # map to manage property
     type_map = {
         ("house", "rental"): HouseRental,
@@ -276,7 +283,7 @@ class Agent:
         init_args = PropertyClass.prompt_init()
         self.property_list.append(PropertyClass(**init_args))
 
-    def property_price_purchasing(self, flag = "min"):
+    def property_price_purchasing(self, flag="min"):
         """
         Function return cheapest or most expansive property for purchasing
         """
@@ -304,8 +311,7 @@ class Agent:
                 except:
                     pass
 
-
-    def property_price_renting(self, flag = "min"):
+    def property_price_renting(self, flag="min"):
         """
         Function return cheapest or most expansive property for renting
         """
@@ -332,8 +338,3 @@ class Agent:
                         property.display()
                 except:
                     pass
-
-
-
-
-

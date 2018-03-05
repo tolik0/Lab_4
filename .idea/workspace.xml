@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4b46710-371f-40fb-a127-c6da30a46864" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/property_agent.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/test_property_agent.py" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/property.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/property_agent.py" afterPath="$PROJECT_DIR$/property_agent.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,8 +16,8 @@
       <file leaf-file-name="property_agent.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/property_agent.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-203">
-              <caret line="306" column="0" lean-forward="true" selection-start-line="306" selection-start-column="0" selection-end-line="306" selection-end-column="0" />
+            <state relative-caret-position="1077">
+              <caret line="334" column="52" lean-forward="false" selection-start-line="334" selection-start-column="52" selection-end-line="334" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -203,8 +200,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/property_agent.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-203">
-          <caret line="306" column="0" lean-forward="true" selection-start-line="306" selection-start-column="0" selection-end-line="306" selection-end-column="0" />
+        <state relative-caret-position="1077">
+          <caret line="334" column="52" lean-forward="false" selection-start-line="334" selection-start-column="52" selection-end-line="334" selection-end-column="52" />
           <folding />
         </state>
       </provider>
