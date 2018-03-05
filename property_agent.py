@@ -332,7 +332,7 @@ class Agent:
             price = max(prices)
         # print information about property
         for property in self.property_list:
-            if issubclass(type(property), Purchase):
+            if issubclass(type(property), Rental):
                 try:
                     if int(property.rent) == price:
                         property.display()
